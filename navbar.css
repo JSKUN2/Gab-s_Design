@@ -55,3 +55,8 @@ nav {
   -webkit-user-drag: none !important;
   height: 90px;
 }
+.chatbox{
+border:solid black;
+border-radius:5px;
+border-bottom-radius:0px;
+background:white;
