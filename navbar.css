@@ -51,7 +51,7 @@ nav {
   position: fixed;
   bottom: 0;
   width: 90px;
-  right: 0;
+  left:0;
   -webkit-user-drag: none !important;
   height: 90px;
 }
