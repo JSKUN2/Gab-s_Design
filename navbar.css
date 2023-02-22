@@ -60,5 +60,6 @@ border:solid black;
 border-radius:5px;
 border-bottom-radius:0px;
 background:white;
-width:100px;
+width:200px;
+margin-left:100px;
 }
