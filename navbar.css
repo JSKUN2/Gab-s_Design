@@ -57,10 +57,10 @@ nav {
 }
 .chatbox{
 border:solid black;
-border-top-left-radius:5px;
-border-top-right-radius:5px;
-border-bottom-right-radius:5px;
+border-top-left-radius:15px;
+border-top-right-radius:15px;
+border-bottom-right-radius:15px;
 background:white;
 width:200px;
-margin-left:100px;
+margin-left:95px;
 }
