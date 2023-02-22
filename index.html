@@ -7,25 +7,16 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="shortcut icon" href="icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="scrollbar.css">
+    <script src="script.js"></script>
     <title>Gab's Design</title>
 </head>
-<body>
-    
-        <ul>
+<body style="background-color: #333333;     margin: 0;padding: 0;width: 100%;text-align: center;">
+        <nav>
             <li><img src="icon.svg" alt="" style="-webkit-user-drag: none !important;"></li>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#product">Product</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-        <div id="home" style="background-image: url('contoh\ gambar.webp'); background-size: cover;"> 
-            <center>
-            <h1 style="margin-top: 5%;">
-                Gab's Design
-            </h1>
-            <h4>            ☎Contact us: +62 822-7409-3337
-            </h4>
-            </center>
-            <img src="red-among-us-png.webp" alt="" class="dummies">
-        </div>
+            <li><a href="#" onclick="home()">Home</a></li>
+            <li><a href="#" onclick="product()">Product</a></li>
+            <li><a href="#" onclick="about()">About</a></li>
+        </nav>
+        <iframe id="screen" src="home.html" frameborder="0" height="514vh" width="100%"></iframe>
 </body>
 </html>

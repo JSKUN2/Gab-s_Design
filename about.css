@@ -1,0 +1,11 @@
+.dummies {
+    position: fixed;
+    bottom: 0;
+    width: 50px;
+    right: 0;
+    -webkit-user-drag: none !important;
+    height: 50px;
+  }
+body{
+    background-color: whitesmoke;
+}
