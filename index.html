@@ -1,26 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html translate="no">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="shortcut icon" href="icon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="scrollbar.css">
-    <script src="script.js"></script>
     <title>Gab's Design</title>
+    <link rel="icon" href="icon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
 </head>
-<body style="background-color: #333333;     margin: 0;padding: 0;width: 100%;text-align: center;">
-        <nav>
-            <li><img src="icon.svg" alt="" style="-webkit-user-drag: none !important;"></li>
-            <li><a href="#" onclick="home()">Home</a></li>
-            <li><a href="#" onclick="product()">Product</a></li>
-            <li><a href="#" onclick="about()">About</a></li>
-        </nav>
-        <iframe id="screen" src="home.html" frameborder="0" height="514vh" width="100%"></iframe>
-        <img src="red-among-us-png.webp" alt="" class="dummies">
-        <div class="chatbox">
-        <h3>Lets print your idea</h3>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="brand">
+                <div class="firstname">Gab's</div>
+                <div class="lastname">Design</div>
+            </div>
+            <ul class="navigation">
+                <li><a href="#home">home</a></li>
+                <li><a href="#product">product</a></li>
+                <li><img src="icon.svg" alt="logo"></li>
+            </ul>
         </div>
+        <section id="home" class="home">
+            <p class="homemenu">Gab's Design <br> Best Quality Prints <br> ☏ Contact us: +62 822-7409-3337</p>
+        </section>
+        <section id="product" class="product">
+            <center>
+                Our Product
+            <div class="container">
+                <div class="img-container">
+                    <img src="Baliho.png" alt="Baliho">
+                    <img src="spanduk.png" alt="Spanduk">
+                    <img src="Undangan.png" alt="Undangan">
+                </div>
+            </div>
+            </center>
+        </section>
+    </nav>
+
 </body>
 </html>
