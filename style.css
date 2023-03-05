@@ -1,19 +1,6 @@
 body{
     animation:transition 0.75s;
 }
-.caraousel{
-    background-color: gray !important;
-    top: 0;
-    margin: auto !important;;
-}
-.section-padding{
-    padding: 110px 0;
-}
-.carousel-caption{
-    bottom: 220px;
-    z-index: 2;
-    margin-bottom: 150px;
-}
 @keyframes transition{
     from{
         opacity: 0;
@@ -24,40 +11,13 @@ body{
         transform: rotateX(0);
     }
 }
-.carousel-item{
-    height: 100vh;
-    min-height: 300px;
-}
-.d-block{
-    height: 100%;
-    width: 100%;
-}
-.carousel-inner::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background:rgba(0,0,0,0.7);
-    z-index: 1;
-}
-h5{
-    font-size: 45px;
-    text-transform:uppercase;
-    letter-spacing:2px;
-    margin-top: 25px;
-}
-p{
-    width: 60%;
-    margin: auto;
-    font-size: 20px;
-    line-height: 1.9;
-}
 .navbar-nav a{
     font-size: 15px;
     text-decoration: uppercase;
     font-weight: 500;
+}
+.navbar-nav a:hover{
+    font-weight: 600;
 }
 .navbar-dark .navbar-brand{
     font-size: 25px;
@@ -75,30 +35,37 @@ p{
 .w-100{
     height: 100vh;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .carousel-caption{
-        bottom: 370px;
-    }
-    .carousel-caption p {
-        width: 100%;
-    }
+.home{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-image: url(bg2.jpg);
 }
-@media only screen and (max-width: 767px){
-    .navbar-nav{
-        text-align: center;
-    }
-    .carousel-caption{
-        bottom: 125px;
-    }
-    .caraousel-caption h5{
-        font-size: 17px;
-    }
-    .carousel-caption a{
-        padding: 10px 15px;
-    }
-    .carousel-caption p{
-        width: 100%;
-        line-height: 1.6;
-        font-size: 12px;
+h1{
+    font-weight: 180;
+    margin: 0.4em 0;
+    font-family: arial black;
+    color: rgb(209, 207, 207);
+  }
+h1 span{
+    font-weight: 200;
+    color: whitesmoke;
+    font-family: 'Sofia';
+}
+h1 { 
+    font-size: 3.5em; 
+}
+h2 {
+    color: #888;
+    font-size: 2em;
+}
+@media (max-width: 560px) {
+    h1 { 
+        font-size: 2em; 
     }
 }
