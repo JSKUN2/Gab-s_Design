@@ -53,7 +53,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-family: 'Shantell Sans';
+    font-family: 'Shantell Sans', cursive;
     border: 2px solid goldenrod;
     border-radius: 10px;
 }

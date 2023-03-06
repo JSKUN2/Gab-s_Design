@@ -49,13 +49,13 @@ body{
 h1{
     font-weight: 180;
     margin: 0.4em 0;
-    font-family: 'Aclonica';
+    font-family: 'Aclonica', sans-serif;
     color: white;
   }
 h1 span{
     font-weight: 200;
     color: whitesmoke;
-    font-family: 'Sofia';
+    font-family: 'Sofia', cursive;
 }
 h1 { 
     font-size: 3.5em; 
