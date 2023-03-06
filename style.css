@@ -45,13 +45,11 @@ body{
     width: 100vw;
     text-align: center;
     background-image: url(bg2.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
 }
 h1{
     font-weight: 180;
     margin: 0.4em 0;
-    font-family: "Arial Black";
+    font-family: arial black;
     color: rgb(209, 207, 207);
   }
 h1 span{
@@ -66,8 +64,13 @@ h2 {
     color: #888;
     font-size: 2em;
 }
-@media (max-width: 560px) {
+@media (max-width: 560px) and (min-width: 360px) {
     h1 { 
         font-size: 2em; 
+    }
+}
+@media (max-width: 360px) and (min-height:640px) {
+    .home{
+        background-image: url(androidbg.png);
     }
 }
