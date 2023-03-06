@@ -68,6 +68,6 @@ h2 {
     h1 { 
         font-size: 2em; 
     }
-    .home{background-image:url(androidbg.png);
+    .home{background-image:url(androidbg.png);}
 }
 
