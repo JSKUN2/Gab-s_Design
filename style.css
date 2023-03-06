@@ -1,5 +1,6 @@
 body{
     animation:transition 0.75s;
+    overflow:hidden;
 }
 @keyframes transition{
     from{
@@ -48,6 +49,8 @@ body{
         rgba(0, 0, 0, 0.7), 
         rgba(0, 0, 0, 0.7)
       ), url(bg2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 h1{
     font-weight: 180;
@@ -76,5 +79,7 @@ h2 {
             rgba(0, 0, 0, 0.7), 
             rgba(0, 0, 0, 0.7)
           ), url(androidbg.png);
+        background-repeat:no-repeat;
+        background-size:cover;
     }
 }
