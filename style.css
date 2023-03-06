@@ -44,7 +44,10 @@ body{
     height: 100vh;
     width: 100vw;
     text-align: center;
-    background-image: url(bg2.jpg);
+    background-image:        linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url(bg2.jpg);
 }
 h1{
     font-weight: 180;
@@ -69,6 +72,9 @@ h2 {
         font-size: 2em; 
     }
     .home{
-        background-image: url(androidbg.png);
+        background-image:       linear-gradient(
+            rgba(0, 0, 0, 0.7), 
+            rgba(0, 0, 0, 0.7)
+          ), url(androidbg.png);
     }
 }
