@@ -2,16 +2,13 @@ body{
     animation:transition 0.75s;
     width: 100%;
     height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    background-image:        linear-gradient(
-        rgba(0, 0, 0, 0.7), 
-        rgba(0, 0, 0, 0.7)
-      ), url(bg2.jpg);
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ),url(bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -49,32 +46,35 @@ body{
 .w-100{
     height: 100vh;
 }
-.home{
-    width: 500px;
-    height: 400px;
-    background-color: gainsboro;
+.contact{
     display: flex;
-    flex-direction: column;
-    text-align: left;
-    font-family: 'Shantell Sans', cursive;
-    border: 2px solid goldenrod;
-    border-radius: 10px;
+    flex-direction: row;
+    padding-top: 120px;
 }
 .map{
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 64.5%;
-    border-bottom-left-radius:10px;
-    border-bottom-right-radius:10px;
+    margin-left: 250px;
+    border-radius: 4px;
+    height:390px;
+    width:390px;
 }
+.about{
+    margin-left: 200px;
+    width: 300px;
+}
+
 @media (max-width: 560px){
     body{
-        background-image:        linear-gradient(
-            rgba(0, 0, 0, 0.7), 
-            rgba(0, 0, 0, 0.7)
-          ), url(androidbg.png);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .map{
+        margin-left: 50px;
+        height:200px;
+        width: 200px;
+    }
+    .about{
+        margin-left: 50px;
+        width: 200px;
+        font-size: 15px;
     }
 }
