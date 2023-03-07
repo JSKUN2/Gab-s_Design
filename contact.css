@@ -67,6 +67,9 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .contact{
+        padding-top: 200px;
+    }
     .map{
         margin-left: 50px;
         height:200px;
