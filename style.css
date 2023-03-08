@@ -40,6 +40,8 @@ body{
     width: 100%;
     height: 200px;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
     padding-top: 250px;
     width: 100vw;
     text-align: center;
@@ -74,7 +76,7 @@ h2 {
             rgba(0, 0, 0, 0.3), 
             rgba(0, 0, 0, 0.3)
           ), url(androidbg.png);
-        padding-top: 100px;
+        padding-top: 280px;
     }
 
 }
