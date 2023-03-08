@@ -1,5 +1,6 @@
 body{
     animation:transition 0.75s;
+    overflow: hidden;
 }
 @keyframes transition{
     from{
