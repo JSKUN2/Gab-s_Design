@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital@1&display=swap');
+body{
+    animation:transition 0.75s;
+    background: url(bg3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@keyframes transition{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-decoration: uppercase;
+    font-weight: 500;
+}
+.navbar-nav a:hover{
+    font-weight: 600;
+}
+.navbar-dark .navbar-brand{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover{
+    color: goldenrod;
+}
+.navbar.dark .navbar-nav .navbar-Link{
+    color:white !important;
+}
+.w-100{
+    height: 100vh;
+}
+.about{
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+.logo{
+    margin-top: 60px;
+    width: 500px;
+    height: 170px;
+}
+.title{
+    text-align: center;
+    font-family: 'Tilt Neon', cursive;
+}
+.text{
+    text-align: left;
+    margin-left: 100px;
+    padding-top: 20px;
+    font-family: 'Lora', serif;
+}
+.call{
+    border-radius: 10px;
+    background-color: none;
+    border:none;
+    font-family: 'Genos', sans-serif;
+    font-size: 20px;
+    color: black;
+
+}
+.text2{
+    font-family: 'Genos', sans-serif;
+    font-size: 20px;
+}
+@media (max-width: 560px){
+    .text{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .logo{
+        width: 400px;
+        height: 140px;
+    }
+    .text2{margin-top: 50px;}
+}

@@ -1,6 +1,5 @@
 body{
     animation:transition 0.75s;
-    overflow:hidden;
 }
 @keyframes transition{
     from{
@@ -39,7 +38,6 @@ body{
 .home{
     width: 100%;
     height: 200px;
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -49,8 +47,6 @@ body{
         rgba(0, 0, 0, 0.7), 
         rgba(0, 0, 0, 0.7)
       ), url(bg2.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
 }
 h1{
     font-weight: 180;
@@ -76,10 +72,8 @@ h2 {
     }
     .home{
         background-image:       linear-gradient(
-            rgba(0, 0, 0, 0.5), 
-            rgba(0, 0, 0, 0.5)
+            rgba(0, 0, 0, 0.7), 
+            rgba(0, 0, 0, 0.7)
           ), url(androidbg.png);
-        background-repeat:no-repeat;
-        background-size:cover;
     }
 }
