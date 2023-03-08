@@ -6,8 +6,8 @@ body{
     width: 100vw;
     overflow: hidden;
     background-image:linear-gradient(
-        rgba(0, 0, 0, 0.3), 
-        rgba(0, 0, 0, 0.3)
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.2)
       ),url(bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,8 +81,8 @@ body{
     }
     .about{
         margin-left: 20px;
-        width: 250px;
-        font-size: 15px;
+        width: 300px;
+        font-size: 20px;
     }
     .maplink{
         content: none;
