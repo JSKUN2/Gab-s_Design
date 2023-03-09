@@ -77,7 +77,7 @@ body{
 }
 @media (max-width: 900px){
     p{
-        font-size: 20px;
+        font-size: 18px;
     }
     .logo{
         width: 400px;
