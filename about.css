@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Genos:ital@1&display=swap');
 body{
     animation:transition 0.75s;
-    background: url(bg3.png);
-    background-repeat: no-repeat;
+    background: url(bgloop.jpeg);
     overflow: hidden;
+    color: beige;
 }
 @keyframes transition{
     from{
@@ -44,12 +44,14 @@ body{
 }
 .about{
     width: 100%;
-    height: 200px;
+    height: 302px;
     justify-content: center;
     text-align: center;
+    font-family: 'Lora', serif;
+
 }
 .logo{
-    margin-top: 70px;
+    margin-top: 60px;
     width: 500px;
     height: 170px;
 }
@@ -58,16 +60,18 @@ body{
     flex-direction: row;
     justify-content: space-between;
     margin-left: 40px;
-    margin-right: 100px;
-    margin-top: 100px;
+    margin-right: 50px;
 }
 .jasa{
-    margin-top: 15px;
-
+    padding: 5px;
     height: 80px;
     background-color: rgba(255, 255, 255, 0.212);
     border-radius: 5px;
     height: 240px;
+    text-align: justify;
+}
+.jasa h5{
+    font-family: 'Tilt Neon', cursive;
 }
 .list{
     column-count: 2;
@@ -81,5 +85,9 @@ body{
     .logo{
         width: 400px;
         height: 120px;
+    }
+    .keterangan{
+        margin-left: 20px;
+        margin-right: 10px;
     }
 }
