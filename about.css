@@ -79,9 +79,6 @@ body{
     margin-bottom: 5px;
 }
 @media (max-width: 560px){
-    body{
-        background-image: url(bg3android.png);
-    }
     .logo{
         width: 400px;
         height: 120px;
@@ -89,5 +86,9 @@ body{
     .keterangan{
         margin-left: 20px;
         margin-right: 10px;
+    }
+    .jasa{
+        padding: 2px;
+        font-size: 5px;
     }
 }
