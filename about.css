@@ -89,7 +89,8 @@ body{
         font-size: 11px;
         flex-direction: column;
     }
-    .jasa{
+    .jasa{ 
+        margin-top:50px;
         bottom: 0;
     }
     .list{
