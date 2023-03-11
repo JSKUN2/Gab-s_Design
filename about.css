@@ -67,7 +67,7 @@ body{
     height: 240px;
     text-align: justify;
 }
-.jasa h5{
+.jasa h6{
     font-family: 'Tilt Neon', cursive;
 }
 .list{
@@ -94,5 +94,5 @@ body{
     }
     .list{
         font-size:18px;
-        {
+    {
 }
