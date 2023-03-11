@@ -69,7 +69,6 @@ body{
 }
 .jasa h5{
     font-family: 'Tilt Neon', cursive;
-    font-size:15px;
 }
 .list{
     column-count: 2;
@@ -93,7 +92,4 @@ body{
     .jasa{
         bottom: 0;
     }
-    .list{
-        font-size:18px;
-    {
 }
