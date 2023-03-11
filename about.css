@@ -93,5 +93,8 @@ body{
         bottom: 0;
     }
     .list{
+        bottom:0;
         font-size:15px;
-}
+    }
+    .ket{
+        font-size:11px;
