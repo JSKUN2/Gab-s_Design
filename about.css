@@ -92,6 +92,7 @@ body{
     }
     .jasa{
         bottom: 0;
+        margin-top:20px;
     }
     .ket p{font-size:14px; margin-bottom:30px;}
 }
