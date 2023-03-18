@@ -90,6 +90,7 @@ body{
         margin-right: 3px;
         font-size: 14;
         flex-direction: column;
+        height:100%;
     }
     .jasa{
         bottom:0;
