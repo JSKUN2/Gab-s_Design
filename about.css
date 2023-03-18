@@ -5,7 +5,7 @@ body{
     background: url(bgloop.jpeg);
     overflow: hidden;
     color: beige;
-    position:absolute;
+    position:relative;
 }
 @keyframes transition{
     from{
